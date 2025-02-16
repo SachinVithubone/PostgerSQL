@@ -5,6 +5,9 @@
 
 
 -------------------------------------New Project PostgerSQL-----------------------------------------------
+
+
+
 3. Data Analysis & FindingsRetail Sales Analysis SQL Project
 Project Overview
 Project Title: Retail Sales Analysis
@@ -34,15 +37,25 @@ CREATE DATABASE retail_db;
 CREATE TABLE retail_sales
 (
     transactions_id INT PRIMARY KEY,
+    
     sale_date DATE,	
+   
     sale_time TIME,
+    
     customer_id INT,	
+    
     gender VARCHAR(10),
+    
     age INT,
+    
     category VARCHAR(35),
+    
     quantity INT,
+    
     price_per_unit FLOAT,	
+    
     cogs FLOAT,
+    
     total_sale FLOAT
 );
 
@@ -61,3 +74,6 @@ Null Value Check: Check for any null values in the dataset and delete records wi
 
 3. Data Analysis & Findings
 The following SQL queries were developed to answer specific business questions:
+
+
+
